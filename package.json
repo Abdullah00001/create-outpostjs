@@ -1,6 +1,6 @@
 {
   "name": "create-outpostjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool to scaffold a new Outpost.js project.",
   "main": "index.js",
   "scripts": {
