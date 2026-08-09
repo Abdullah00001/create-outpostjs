@@ -1,19 +1,40 @@
 {
   "name": "create-outpostjs",
   "version": "1.0.2",
-  "description": "",
+  "description": "A CLI tool to scaffold a new Outpost.js project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "create-outpost",
+    "outpost",
+    "outpostjs",
+    "scaffold",
+    "cli",
+    "template",
+    "boilerplate",
+    "generator"
+  ],
+  "author": "Abdullah00001",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah00001/create-outpostjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdullah00001/create-outpostjs/issues"
+  },
+  "homepage": "https://github.com/Abdullah00001/create-outpostjs#readme",
   "type": "commonjs",
   "dependencies": {
     "fs-extra": "^11.4.0"
   },
   "bin": {
     "create-outpost": "./bin/create-outpost.js"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
   }
 }
