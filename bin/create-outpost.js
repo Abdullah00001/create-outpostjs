@@ -44,6 +44,7 @@ async function main() {
     console.log(`\n🎉 Outpost.js project '${projectName}' created successfully!`);
     console.log(`\n👉 Next Steps:`);
     console.log(`  cd ${projectName}`);
+    console.log(`  cp .env.example .env`);
     console.log(`  npm install`);
     console.log(`  docker compose up -d --build\n`);
     console.log(`Happy coding! 🛠️\n`);
